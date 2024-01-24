@@ -84,7 +84,7 @@ public class MixingCalculator extends JFrame {
         System.out.println(String.format("Количество сопел: %d", nozzleCount));
         System.out.println(String.format("Угол 1: %.4f  градусов, угол 2: %.4f градусов", nozzleAngle1, nozzleAngle2));
         System.out.println(String.format("Высота расположения сопла 1: %.2f метров, сопла 2: %.2f метров", nozzleHeight1, nozzleHeight2));
-        System.out.println("Диаметр сопла: " + nozzleDiameter + " метров");
+        System.out.println(String.format("Диаметр сопла: %.8f метров" , nozzleDiameter));
         System.out.println(String.format("Давление сопла: %.2f Па", nozzlePressure));
         System.out.println(String.format("Расход жидкости через сопла: %.8f м^3/с", nozzleFlowRate));
 
